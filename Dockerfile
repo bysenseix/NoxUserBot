@@ -38,7 +38,7 @@ RUN pacman -Syyu --noconfirm \
 
 
 # Repoyu klonla ve çalışma dizinini hazırla
-RUN git clone https://github.com/Noxusizm/NoxUserBot /root/sedenbot
+RUN git clone https://github.com/bysenseix/NoxUserBot /root/sedenbot
 RUN mkdir /root/sedenbot/bin/
 WORKDIR /root/sedenbot/
 
